@@ -1,0 +1,7 @@
+[user]
+	email = encoluis@hotmail.com
+	name = Luis Enco
+[core]
+	editor = vim
+[alias]
+	lg = log --all --decorate --oneline --graph --format=format:'%C(yellow)%h%C(reset) - %C(white)%s - %C(cyan)%an%C(reset) - %C(dim cyan)%ar%C(reset)%C(blink)%C(green)%d%C(reset)'
