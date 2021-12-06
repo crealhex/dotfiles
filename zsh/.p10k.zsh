@@ -1259,10 +1259,10 @@
   #
   # For example, given these settings:
   #
-  #   typeset -g POWERLEVEL9K_TERRAFORM_CLASSES=(
+     typeset -g POWERLEVEL9K_TERRAFORM_CLASSES=(
   #     '*prod*'  PROD
   #     '*test*'  TEST
-  #     '*'       OTHER)
+       '*'       OTHER)
   #
   # If your current terraform workspace is "project_test", its class is TEST because "project_test"
   # doesn't match the pattern '*prod*' but does match '*test*'.
@@ -1289,7 +1289,7 @@
   # typeset -g POWERLEVEL9K_TERRAFORM_VERSION_VISUAL_IDENTIFIER_EXPANSION='⭐'
 
   ################[ terraform_version: It shows active terraform version (https://www.terraform.io) ]#################
-  typeset -g POWERLEVEL9K_TERRAFORM_VERSION_SHOW_ON_COMMAND='terraform|tf'
+  typeset -g POWERLEVEL9K_TERRAFORM_VERSION_SHOW_ON_COMMAND='terraform|tf|tform'
 
   #############[ kubecontext: current kubernetes context (https://kubernetes.io/) ]#############
   # Show kubecontext only when the the command you are typing invokes one of these tools.
