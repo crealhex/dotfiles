@@ -2,8 +2,6 @@
 
 source "$(chezmoi source-path)/if-missing-utility.sh"
 
-set -e
-
 # Install Neovim
 install_if_missing "nvim" "Neovim" "sudo snap install --beta nvim --classic"
 
