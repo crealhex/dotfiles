@@ -12,7 +12,12 @@ $msys2RootPath = "$env:USERPROFILE/Toolkit/msys64"
 Write-Host "Installing Msys2..."
 $installerArgs = "in --confirm-command --accept-messages --root $msys2RootPath"
 Start-Process -FilePath $msys2Installer -ArgumentList $installerArgs -Wait
-Remove-Item $msys2Installer
+
+$msys2HomePath = "$msys2RootPath\home\$env:USERNAME"
 
 Write-Host "Setting up some files before finishing..."
-Copy-Item -Path "$msys2RootPath\home\$env:USERNAME\.profile" -Destination "$env:USERPROFILE\" -Force
+Copy-Item -Path "$msys2HomePath\.profile" -Destination "$env:USERPROFILE\" -Force
+
+Write-Host "Cleaning Up"
+Remove-Item $msys2Installer
+Remove-Item -Path "$msys2HomePath\*" -Recursive -Force
