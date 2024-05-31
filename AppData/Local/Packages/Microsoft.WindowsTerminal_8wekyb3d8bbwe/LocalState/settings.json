@@ -16,6 +16,10 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -23,10 +27,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         }
     ],
     "copyFormatting": "none",
@@ -42,12 +42,14 @@
     {
         "defaults": 
         {
+            "colorScheme": "Tango Dark",
             "cursorShape": "filledBox",
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 10.0
-            }
+            },
+            "padding": "0"
         },
         "list": 
         [
@@ -70,11 +72,11 @@
                 "name": "Command Prompt"
             },
             {
-                "commandline": "C:\\Users\\Warender\\Toolkit\\msys64\\msys2_shell.cmd -defterm -here -no-start -clang64",
+                "commandline": "%UserProfile%\\Toolkit\\msys64\\msys2_shell.cmd -defterm -here -no-start -mingw64",
                 "guid": "{189375bb-bc95-4467-b49b-9c790e306bdf}",
                 "hidden": false,
-                "icon": "C:\\Users\\Warender\\Toolkit\\msys64\\clang64.ico",
-                "name": "Clang64",
+                "icon": "%UserProfile%\\Toolkit\\msys64\\mingw64.ico",
+                "name": "Mingw64",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
@@ -82,6 +84,30 @@
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{79851bbf-ecfb-5aec-bf30-a2055be02147}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{64f3dafc-870d-59f3-89b1-39e09b53d91a}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -272,6 +298,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -295,5 +344,6 @@
             "yellow": "#808000"
         }
     ],
-    "themes": []
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
