@@ -24,6 +24,7 @@ require("lazy").setup({
   { 'williamboman/mason.nvim', config = true },
   { 'williamboman/mason-lspconfig.nvim', config = true },
   { "neovim/nvim-lspconfig" },
+  { "ziglang/zig.vim" },
   { "hrsh7th/nvim-cmp" },
   { "hrsh7th/cmp-nvim-lsp" },
 	{ "rebelot/kanagawa.nvim" },
@@ -68,6 +69,12 @@ lspconfig.tsserver.setup({
 lspconfig.clangd.setup({
   capabilities = capabilities,
   on_attach = function(client, bufnr)
-    -- vim.api.nvim_buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
   end,
 })
+
+lspconfig.zls.setup({
+  capabilities = capabilities,
+  on_attach = function(client, bufnr)
+  end,
+})
+

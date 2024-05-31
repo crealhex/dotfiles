@@ -13,6 +13,7 @@
 # would be benifitial to all, please feel free to send
 # a patch to the msys2 mailing list.
 
+export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$PATH:/c/Users/Warender/scoop/shims"
 
 # User dependent .bash_profile file
