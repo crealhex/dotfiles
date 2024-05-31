@@ -1,0 +1,13 @@
+
+alias k='kubecolor'
+
+alias cat="bat --plain"
+
+alias ls='ls --color=auto -h'
+alias lsh='ls -d --color=auto .*'               # show hidden files and directories
+
+alias fig='docker compose'
+
+# git aliases
+alias glg='git log --all --oneline --decorate --graph'
+alias gst='git status'
