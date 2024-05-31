@@ -20,4 +20,4 @@ Copy-Item -Path "$msys2HomePath\.profile" -Destination "$env:USERPROFILE\" -Forc
 
 Write-Host "Cleaning Up"
 Remove-Item $msys2Installer
-Remove-Item -Path "$msys2HomePath\*" -Recursive -Force
+Remove-Item -Path "$msys2HomePath\*" -Recurse -Force
