@@ -11,3 +11,5 @@ alias fig='docker compose'
 # git aliases
 alias glg='git log --all --oneline --decorate --graph'
 alias gst='git status'
+
+alias cz='chezmoi'
