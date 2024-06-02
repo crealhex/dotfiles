@@ -72,11 +72,27 @@
                 "name": "Command Prompt"
             },
             {
-                "commandline": "%UserProfile%\\Toolkit\\msys64\\msys2_shell.cmd -defterm -here -no-start -mingw64",
+                "commandline": "%USERPROFILE%\\Toolkit\\msys64\\msys2_shell.cmd -defterm -here -no-start -clang64",
                 "guid": "{189375bb-bc95-4467-b49b-9c790e306bdf}",
                 "hidden": false,
-                "icon": "%UserProfile%\\Toolkit\\msys64\\mingw64.ico",
+                "icon": "%USERPROFILE%\\Toolkit\\msys64\\clang64.ico",
+                "name": "Clang64",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "commandline": "%USERPROFILE%\\Toolkit\\msys64\\msys2_shell.cmd -defterm -here -no-start -mingw64",
+                "guid": "{189375bb-bc95-4467-b49b-9c790e306bdf}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\Toolkit\\msys64\\mingw64.ico",
                 "name": "Mingw64",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "commandline": "%USERPROFILE%\\Toolkit\\msys64\\msys2_shell.cmd -defterm -here -no-start -ucrt64",
+                "guid": "{e56025a4-c6e6-469f-a23a-55bf2e5b8066}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\Toolkit\\msys64\\ucrt64.ico",
+                "name": "UCRT64",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
