@@ -7,9 +7,3 @@ if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 }
 
 Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online -NoRestart
-
-wsl --install
-
-wsl --install -d Ubuntu --no-launch
-
-Read-Host -Prompt "Press Enter to exit"
