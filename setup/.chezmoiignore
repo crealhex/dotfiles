@@ -1,0 +1,7 @@
+{{- if ne .chezmoi.hostname "vostro" }}
+.chezmoiscripts/windows/run_once_before_open-suggestions.ps1
+.chezmoiscripts/windows/run_once_before_setup-wsl2.ps1
+.chezmoiscripts/windows/run_once_before_03-install-gcc-clang-toolchains.sh
+{{- end }}
+
+.chezmoiscripts/windows/run_once_before_01-install-msys2.ps1
