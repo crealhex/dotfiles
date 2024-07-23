@@ -8,8 +8,6 @@ start www.google.com/search?q=download+deepl
 start www.google.com/search?q=download+whatsapp
 
 # Elevation required
-start www.google.com/search?q=download+windows+sandbox
-start www.google.com/search?q=download+wsl2
 start www.google.com/search?q=download+docker+desktop
 start www.google.com/search?q=download+broadcom+vmware
 start www.google.com/search?q=download+easeus+partition+master

@@ -1,3 +1,1 @@
-.chezmoiscripts/windows/**
-
-!.chezmoiscripts/windows/setup-wsl2.ps1
+.chezmoiscripts/windows/03-install-gcc-clang-toolchains.sh
