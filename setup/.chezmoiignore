@@ -1,3 +1,5 @@
+.chezmoiscripts/windows/01-install-msys2.ps1
+
 .chezmoiscripts/windows/run_once_before_00-install-utilities.ps1
 .chezmoiscripts/windows/run_once_before_01-install-msys2.ps1
 .chezmoiscripts/windows/run_once_before_02-setup-tools.ps1
