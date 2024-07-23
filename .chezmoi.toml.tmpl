@@ -2,8 +2,8 @@
 command = 'C:\Windows\System32\mmc.exe'
 
 [interpreters.sh]
-command = 'C:\Users\Warender\Toolkit\msys64\msys2_shell.cmd'
+command = '{{ .chezmoi.homeDir }}\Toolkit\msys64\msys2_shell.cmd'
 args = [ "-defterm", "-here", "-no-start", "-ucrt64" ]
 
 [interpreters.ps1]
-command = 'pwsh.exe'
+command = '{{ .chezmoi.homeDir }}\scoop\shims\pwsh.exe'
