@@ -1,11 +1,3 @@
-.chezmoiscripts/windows/01-install-msys2.ps1
+.chezmoiscripts/windows/**
 
-.chezmoiscripts/windows/run_once_before_00-install-utilities.ps1
-.chezmoiscripts/windows/run_once_before_01-install-msys2.ps1
-.chezmoiscripts/windows/run_once_before_02-setup-tools.ps1
-.chezmoiscripts/windows/run_once_before_03-install-gcc-clang-toolchains.sh
-.chezmoiscripts/windows/run_once_before_open-suggestions.ps1
-
-{{ if ne .chezmoi.hostname "vostro" }}
-.chezmoiscripts/windows/run_once_before_setup-wsl2.ps1
-{{ end }}
+!.chezmoiscripts/windows/setup-wsl2.ps1
