@@ -81,7 +81,7 @@
             },
             {
                 "commandline": "%USERPROFILE%\\Toolkit\\msys64\\msys2_shell.cmd -defterm -here -no-start -mingw64",
-                "guid": "{189375bb-bc95-4467-b49b-9c790e306bdf}",
+                "guid": "{e56c9388-ff6e-4097-af01-192abad64d14}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\Toolkit\\msys64\\mingw64.ico",
                 "name": "Mingw64",
