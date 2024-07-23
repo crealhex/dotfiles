@@ -1,0 +1,33 @@
+scoop install main/7zip
+scoop install main/git
+
+scoop bucket add nerd-fonts
+scoop install nerd-fonts/JetBrainsMono-NF
+
+scoop bucket add extras
+scoop install extras/switcheroo
+scoop install extras/altsnap
+scoop install extras/obsidian
+scoop install extras/vscode
+scoop install extras/jetbrains-toolbox
+scoop install extras/postman
+
+{{- if eq .chezmoi.hostname "oldvostro" }}
+scoop install extras/brave
+scoop install extras/googlechrome
+scoop install extras/firefox
+
+scoop bucket add versions
+scoop install versions/firefox-developer
+
+scoop install extras/cpu-z
+scoop install extras/discord
+scoop install extras/coretemp
+scoop install extras/telegram
+scoop install extras/vlc
+scoop install extras/qbittorrent
+scoop install extras/figma
+scoop install main/lessmsi
+scoop install extras/anki
+scoop install extras/obs-studio
+{{- end }}
