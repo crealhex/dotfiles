@@ -13,6 +13,7 @@ start www.google.com/search?q=download+bluestacks
 # Available in MS Store
 start www.google.com/search?q=download+deepl
 start www.google.com/search?q=download+whatsapp
+start www.google.com/search?q=download+discord
 
 # Not available in MS Store
 start www.google.com/search?q=download+kindle
