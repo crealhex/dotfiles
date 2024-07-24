@@ -190,9 +190,9 @@ fi
 # alias cd=cd_func
 
 # eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/tokyonight_storm.omp.json)"
-eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/zash.omp.json)"
+# eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/zash.omp.json)"
 # eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/1_shell.omp.json)"
-# eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/onehalf.minimal.omp.json)"
+eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/onehalf.minimal.omp.json)"
 # eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/pure.omp.json)"
 # eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/spaceship.omp.json)"
 # eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/tokyo.omp.json)"
