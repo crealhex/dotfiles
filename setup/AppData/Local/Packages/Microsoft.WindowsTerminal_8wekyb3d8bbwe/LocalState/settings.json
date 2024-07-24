@@ -31,7 +31,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{189375bb-bc95-4467-b49b-9c790e306bdf}",
+    "defaultProfile": "{e56025a4-c6e6-469f-a23a-55bf2e5b8066}",
     "newTabMenu": 
     [
         {
@@ -42,6 +42,7 @@
     {
         "defaults": 
         {
+            "closeOnExit": "graceful",
             "colorScheme": "Tango Dark",
             "cursorShape": "filledBox",
             "font": 
@@ -100,18 +101,6 @@
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{79851bbf-ecfb-5aec-bf30-a2055be02147}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{64f3dafc-870d-59f3-89b1-39e09b53d91a}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             },
             {
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
