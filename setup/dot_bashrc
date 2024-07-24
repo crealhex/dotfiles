@@ -188,3 +188,5 @@ fi
 # }
 #
 # alias cd=cd_func
+
+eval "$(oh-my-posh init bash --config $POSH_THEMES_PATH/tokyonight_storm.omp.json)"
